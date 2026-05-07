@@ -1,19 +1,11 @@
-on:
+main:
   push:
-    branches:
-      - main
-
-jobs:
-  build-and-deploy:
-    runs-on: node:20
-    steps:
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build
-        run: npm run build
-
-      - name: Deploy to Pages
-        uses: cnb/pages@v1
-        with:
-          dir: dist
+    - docker:
+        image: node:20
+        volumes:
+          - /root/.npm:cow
+      stages:
+        - name: 安装依赖并构建
+          script: npm install && npm run build
+        - name: 列出构建产物
+          script: ls dist/
