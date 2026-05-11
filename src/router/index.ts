@@ -13,6 +13,7 @@ const routes = [
   { path: '/thailand', component: () => import('@/pages/Thailand.vue') },
   { path: '/cases', component: () => import('@/pages/Cases.vue') },
   { path: '/partners', component: () => import('@/pages/Partners.vue') },
+  { path: '/qualifications', component: () => import('@/pages/Qualifications.vue') },
   { path: '/contact', component: () => import('@/pages/Contact.vue') },
 ]
 

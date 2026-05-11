@@ -1,30 +1,33 @@
-/* ===== ZHWC Design System ===== */
+/* ===== ZHWC Design System — ForgeFlow AI Brand ===== */
 :root {
-  /* Brand Colors */
-  --color-indigo: #1A2E4A;
-  --color-indigo-light: #243d62;
-  --color-indigo-dark: #111f33;
-  --color-amber: #D4870A;
-  --color-amber-light: #e8960f;
-  --color-amber-dark: #b57208;
-  --color-white: #F5F3EE;
+  /* Brand Colors — derived from logo palette */
+  --color-indigo: #1A3A5C;        /* logo dark navy (gear center/dark segments) */
+  --color-indigo-light: #2A4E7A;
+  --color-indigo-dark: #0D2236;
+  --color-amber: #0070C0;         /* logo primary blue (brand text color) */
+  --color-amber-light: #1890D8;
+  --color-amber-dark: #005A99;
+  --color-green: #7CB93E;         /* logo accent green (gear green segments) */
+  --color-green-light: #8DCC4A;
+  --color-green-dark: #5C9A28;
+  --color-white: #F4F7FA;
   --color-white-pure: #ffffff;
 
   /* Text */
-  --color-text-primary: #1A2E4A;
+  --color-text-primary: #1A3A5C;
   --color-text-secondary: #4a5568;
   --color-text-muted: #718096;
-  --color-text-light: #F5F3EE;
+  --color-text-light: #F4F7FA;
 
   /* Surface */
-  --color-bg: #F5F3EE;
-  --color-bg-dark: #0f1c2d;
+  --color-bg: #F4F7FA;
+  --color-bg-dark: #0D2236;
   --color-surface: #ffffff;
-  --color-surface-alt: #f0ede6;
+  --color-surface-alt: #EBF1F7;
 
   /* Border */
-  --color-border: #e2ded6;
-  --color-border-light: #eeeae3;
+  --color-border: #D1DDE8;
+  --color-border-light: #E4EDF5;
 
   /* Typography */
   --font-sans: 'Inter', 'Noto Sans SC', 'Noto Sans Thai', -apple-system, sans-serif;
@@ -41,9 +44,9 @@
   --radius-lg: 20px;
 
   /* Shadows */
-  --shadow-sm: 0 1px 3px rgba(26,46,74,0.08);
-  --shadow-md: 0 4px 16px rgba(26,46,74,0.1);
-  --shadow-lg: 0 12px 40px rgba(26,46,74,0.14);
+  --shadow-sm: 0 1px 3px rgba(26,58,92,0.08);
+  --shadow-md: 0 4px 16px rgba(26,58,92,0.1);
+  --shadow-lg: 0 12px 40px rgba(26,58,92,0.14);
 
   /* Transition */
   --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
@@ -234,9 +237,9 @@ img {
   font-weight: 600;
   letter-spacing: 0.05em;
 }
-.badge-amber { background-color: rgba(212,135,10,0.12); color: var(--color-amber-dark); }
-.badge-indigo { background-color: rgba(26,46,74,0.08); color: var(--color-indigo); }
-.badge-green { background-color: rgba(16,185,129,0.1); color: #065f46; }
+.badge-amber { background-color: rgba(0,112,192,0.10); color: var(--color-amber-dark); }
+.badge-indigo { background-color: rgba(26,58,92,0.08); color: var(--color-indigo); }
+.badge-green { background-color: rgba(124,185,62,0.12); color: var(--color-green-dark); }
 
 /* Divider */
 .divider {

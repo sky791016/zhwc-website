@@ -3,9 +3,7 @@
     <div class="navbar__inner container">
       <!-- Logo -->
       <RouterLink to="/" class="navbar__logo">
-        <span class="navbar__logo-zh">志合创伟</span>
-        <span class="navbar__logo-en">ZHWC</span>
-        <span class="navbar__logo-tag">AI-Powered · Enterprise-Trusted</span>
+        <img src="/logo.png" alt="志合创伟 ForgeFlow AI" class="navbar__logo-img" />
       </RouterLink>
 
       <!-- Desktop Nav -->
@@ -96,6 +94,7 @@ const navItems = [
   { zh: '泰国专区', en: 'Thailand Hub', path: '/thailand' },
   { zh: '案例与洞察', en: 'Cases & Insights', path: '/cases' },
   { zh: '生态合作', en: 'Partnerships', path: '/partners' },
+  { zh: '资质认证', en: 'Qualifications', path: '/qualifications' },
   { zh: '联系我们', en: 'Contact', path: '/contact' },
 ]
 
@@ -122,7 +121,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 }
 
 .navbar--scrolled {
-  background: rgba(26, 46, 74, 0.97);
+  background: rgba(13, 34, 54, 0.97);
   backdrop-filter: blur(12px);
   padding: 12px 0;
   box-shadow: 0 2px 24px rgba(0,0,0,0.2);
@@ -137,35 +136,18 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 /* Logo */
 .navbar__logo {
   display: flex;
-  align-items: baseline;
-  gap: 8px;
+  align-items: center;
   flex-shrink: 0;
 }
 
-.navbar__logo-zh {
-  font-size: 20px;
-  font-weight: 800;
-  color: #fff;
-  font-family: 'Noto Sans SC', sans-serif;
-}
-
-.navbar__logo-en {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--color-amber);
-  letter-spacing: 0.08em;
-}
-
-.navbar__logo-tag {
-  font-size: 10px;
-  color: rgba(255,255,255,0.45);
-  letter-spacing: 0.08em;
-  font-weight: 400;
-  display: none;
-}
-
-@media (min-width: 1100px) {
-  .navbar__logo-tag { display: inline; }
+.navbar__logo-img {
+  height: 44px;
+  width: auto;
+  border-radius: 8px;
+  background: #fff;
+  padding: 4px 10px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+  display: block;
 }
 
 /* Nav items */

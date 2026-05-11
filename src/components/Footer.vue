@@ -5,8 +5,7 @@
         <!-- Brand -->
         <div class="footer__brand">
           <div class="footer__logo">
-            <span class="footer__logo-zh">志合创伟</span>
-            <span class="footer__logo-en">ZHWC</span>
+            <img src="/logo.png" alt="志合创伟 ForgeFlow AI" class="footer__logo-img" />
           </div>
           <p class="footer__tagline">智能驱动，信任为本<br><em>AI-Powered. Enterprise-Trusted.</em></p>
           <p class="footer__desc">十一年安全根基，赋能亚洲企业迈向人工智能新时代</p>
@@ -40,6 +39,7 @@
           <ul class="footer__links">
             <li><RouterLink to="/about">关于我们 / About</RouterLink></li>
             <li><RouterLink to="/about#journey">发展历程 / Journey</RouterLink></li>
+            <li><RouterLink to="/qualifications">资质认证 / Qualifications</RouterLink></li>
             <li><RouterLink to="/thailand">泰国专区 / Thailand Hub</RouterLink></li>
             <li><RouterLink to="/cases">案例洞察 / Cases</RouterLink></li>
             <li><RouterLink to="/partners">生态合作 / Partners</RouterLink></li>
@@ -101,24 +101,16 @@
 }
 
 .footer__logo {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
   margin-bottom: 12px;
 }
 
-.footer__logo-zh {
-  font-size: 22px;
-  font-weight: 800;
-  color: #fff;
-  font-family: 'Noto Sans SC', sans-serif;
-}
-
-.footer__logo-en {
-  font-size: 16px;
-  font-weight: 700;
-  color: var(--color-amber);
-  letter-spacing: 0.1em;
+.footer__logo-img {
+  height: 48px;
+  width: auto;
+  border-radius: 8px;
+  background: #fff;
+  padding: 5px 12px;
+  display: block;
 }
 
 .footer__tagline {
