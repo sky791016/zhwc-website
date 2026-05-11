@@ -50,9 +50,8 @@
             <li><RouterLink to="/about">关于我们 / About</RouterLink></li>
             <li><RouterLink to="/about#journey">发展历程 / Journey</RouterLink></li>
             <li><RouterLink to="/qualifications">资质认证 / Qualifications</RouterLink></li>
-            <li><RouterLink to="/thailand">泰国专区 / Thailand Hub</RouterLink></li>
             <li><RouterLink to="/cases">案例洞察 / Cases</RouterLink></li>
-            <li><RouterLink to="/partners">生态合作 / Partners</RouterLink></li>
+            <li><RouterLink to="/partners">生态合作 / Ecosystem</RouterLink></li>
           </ul>
         </div>
 

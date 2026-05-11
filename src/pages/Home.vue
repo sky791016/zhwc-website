@@ -9,7 +9,7 @@
       <div class="container hero__inner">
         <div class="hero__content">
           <div class="hero__badge">
-            <span class="badge badge-amber">🇹🇭 {{ t({ zh: '泰国市场拓展', en: 'Thailand Market Expansion' }) }}</span>
+            <span class="badge badge-indigo">{{ t({ zh: '企业 AI 集成创新', en: 'Enterprise AI Integration & Innovation' }) }}</span>
           </div>
           <h1 class="hero__title">
             {{ t({ zh: '十一年安全根基', en: 'Eleven Years of Security Heritage' }) }}<br>
@@ -17,22 +17,22 @@
           </h1>
           <p class="hero__title-en">
             {{ t({
-              zh: 'Eleven years of enterprise security heritage, redefining trustworthy AI for Asian business.',
-              en: 'From cybersecurity pioneer to AI-native partner — battle-tested in China, sovereign-compliant in Thailand.'
+              zh: 'Eleven years of enterprise security heritage, driving AI integration innovation for Asian business.',
+              en: 'From cybersecurity pioneer to AI-native partner — battle-tested security DNA powering enterprise AI integration.'
             }) }}
           </p>
           <p class="hero__desc">
             {{ t({
-              zh: '志合创伟将中国一线制造业 AI 实战能力与泰国主权合规交付框架无缝对接——我们不卖平台许可证，我们交付可验收的 AI 场景结果。',
-              en: 'ZHWC seamlessly bridges battle-tested Chinese manufacturing AI with Thailand-sovereign compliant delivery. We don\'t sell platform licenses — we deliver verifiable AI scenario outcomes.'
+              zh: '志合创伟将十一年企业安全基因与前沿 AI 集成能力深度融合——我们不卖平台许可证，我们交付可验收的 AI 场景创新成果。',
+              en: 'ZHWC fuses eleven years of enterprise security DNA with cutting-edge AI integration capabilities. We don\'t sell platform licenses — we deliver verifiable AI innovation outcomes.'
             }) }}
           </p>
           <div class="hero__actions">
             <RouterLink to="/solutions/factorymind" class="btn btn-primary hero__btn">
               {{ t({ zh: '探索旗舰产品 ZH·FactoryMind', en: 'Explore ZH·FactoryMind →' }) }}
             </RouterLink>
-            <RouterLink to="/thailand" class="btn btn-secondary hero__btn">
-              {{ t({ zh: '泰国专区 Thailand Hub ↗', en: 'Thailand Hub ↗' }) }}
+            <RouterLink to="/partners" class="btn btn-secondary hero__btn">
+              {{ t({ zh: '了解生态合作 →', en: 'Our Ecosystem →' }) }}
             </RouterLink>
           </div>
           <div class="hero__trust">

@@ -105,9 +105,8 @@ const navItems = [
       { zh: '精益 AI 制造方法论', en: 'Lean AI Manufacturing', path: '/solutions/manufacturing' },
     ]
   },
-  { zh: '泰国专区', en: 'Thailand Hub', path: '/thailand' },
   { zh: '案例与洞察', en: 'Cases & Insights', path: '/cases' },
-  { zh: '生态合作', en: 'Partnerships', path: '/partners' },
+  { zh: '生态合作', en: 'Ecosystem', path: '/partners' },
   { zh: '资质认证', en: 'Qualifications', path: '/qualifications' },
   { zh: '联系我们', en: 'Contact', path: '/contact' },
 ]
