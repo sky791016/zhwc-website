@@ -5,7 +5,17 @@
         <!-- Brand -->
         <div class="footer__brand">
           <div class="footer__logo">
-            <img src="/logo.png" alt="志合创伟 ForgeFlow AI" class="footer__logo-img" />
+            <svg class="footer__logo-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 4 A20 20 0 0 1 40.7 14" stroke="#7CB93E" stroke-width="7" stroke-linecap="round" fill="none"/>
+              <path d="M43 26 A20 20 0 0 1 35 40.7" stroke="#7CB93E" stroke-width="7" stroke-linecap="round" fill="none"/>
+              <path d="M40.7 14 A20 20 0 0 1 43 26" stroke="#0070C0" stroke-width="7" stroke-linecap="round" fill="none"/>
+              <path d="M35 40.7 A20 20 0 0 1 13 40.7" stroke="#0070C0" stroke-width="7" stroke-linecap="round" fill="none"/>
+              <path d="M13 40.7 A20 20 0 0 1 4 24" stroke="#0070C0" stroke-width="7" stroke-linecap="round" fill="none"/>
+              <path d="M4 24 A20 20 0 0 1 24 4" stroke="#0070C0" stroke-width="7" stroke-linecap="round" fill="none"/>
+              <circle cx="24" cy="24" r="8" fill="#1A3A5C"/>
+              <circle cx="24" cy="24" r="4" fill="#0070C0"/>
+            </svg>
+            <span class="footer__logo-text">工赋</span>
           </div>
           <p class="footer__tagline">智能驱动，信任为本<br><em>AI-Powered. Enterprise-Trusted.</em></p>
           <p class="footer__desc">十一年安全根基，赋能亚洲企业迈向人工智能新时代</p>
@@ -101,16 +111,25 @@
 }
 
 .footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
   margin-bottom: 12px;
 }
 
-.footer__logo-img {
-  height: 48px;
-  width: auto;
-  border-radius: 8px;
-  background: #fff;
-  padding: 5px 12px;
-  display: block;
+.footer__logo-icon {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+}
+
+.footer__logo-text {
+  font-size: 26px;
+  font-weight: 900;
+  color: #fff;
+  font-family: 'Noto Sans SC', sans-serif;
+  letter-spacing: 0.04em;
+  line-height: 1;
 }
 
 .footer__tagline {
